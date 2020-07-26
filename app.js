@@ -17,6 +17,7 @@ app.get('/results', (req,res)=>{
             const results = JSON.parse(body); 
             // console.log(results)
             // res.send(results.Search[0].Title);
+            console.log(body)
             res.render('results',{results:results})
         }
     })
