@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        h1 {
+            margin-left: 43px; 
+            border:2px solid lightgrey;
+            padding:5px 15px;
+            border-radius: 10px;
+            margin-top: 10px;
+            margin-right: 43px;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+    <body>
+        <h1>Search form</h1>
+
+        <div class="container">
+            <form action="/results" method="GET">
+                <label for="exampleInputEmail1">Enter search query(Movie/Album/Series/TV show name)</label>
+                <input type="text" name="search" class="form-control" id="exampleInputEmail1" placeholder="Enter title">
+                </div>
+                <input class="btn btn-success" type="submit" style="margin-left: 5.5%; margin-top: 15px;;">
+            </form>
+        </div>
+    </body>
+</html>
